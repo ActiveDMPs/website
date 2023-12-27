@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ideas and Discussions
+    url: https://ideas.ds-wizard.org
+    about: Please check and eventually add new feature requests in our Ideas service.
+  - name: Documentation
+    url: https://guide.ds-wizard.org
+    about: Please check the documentation before reporting an issue and asking a question.
+  - name: Website
+    url: ...
+    about: ...
+  - name: Meta-Specification
+    url: ...
+    about: ...

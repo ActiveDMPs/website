@@ -1,0 +1,6 @@
+# Default owners (unless more specific applies)
+*           @MarekSuchanek
+
+# Specific parts
+/_data/signatories.yml   @MarekSuchanek @TomMiksa
+/_includes/manifesto.md  @MarekSuchanek @TomMiksa
