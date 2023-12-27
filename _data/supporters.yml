@@ -1,0 +1,25 @@
+- name: Marek Suchánek
+  affiliations:
+    - name: CTU in Prague
+      url: https://fit.cvut.cz
+    - name: Data Stewardship Wizard
+      url: https://ds-wizard.org
+  orcid: 0000-0001-7525-9218
+  email: marek.suchanek@fit.cvut.cz
+  linkedin: mareksuchanek
+  github: MarekSuchanek
+
+
+
+####################################################
+# Template (copy and uncomment):
+#
+#- name: John Doe
+#  affiliations:
+#    - University X
+#    - Company Y
+#  orcid: 0000-0000-0000-0000
+#  email: john.doe@example.com
+#  linkedin: johndoe
+#  github: JohnDoe
+####################################################

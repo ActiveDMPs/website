@@ -1,0 +1,48 @@
+<h2>Supporters</h2>
+
+<p>Here, we list all the supporters of the DMP manifesto. Currently, there are {{ site.data.supporters|size }} supporters.</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Affiliation(s)</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for supporter in site.data.supporters %}
+    <tr>
+      <td>{{ forloop.index }}</td>
+      <td>{{ supporter.name }}</td>
+      <td>
+
+      </td>
+      <td>
+        <ul>
+          {% if supporter.orcid %}
+          <li><a href="https://orcid.org/{{supporter.github}}"><i class="bi-orcid"></i></a></li>
+          {% endif %}
+          {% if supporter.email %}
+          <li><a href="mailto:{{supporter.email}}"><i class="bi-envelope-at-fill"></i></a></li>
+          {% endif %}
+          {% if supporter.linkedin %}
+          <li><a href="https://linkedin.com/in/{{supporter.linkedin}}"><i class="bi-linkedin"></i></a></li>
+          {% endif %}
+          {% if supporter.github %}
+          <li><a href="https://github.com/{{supporter.github}}"><i class="bi-github"></i></a></li>
+          {% endif %}
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<div class="call-to-action">
+  <h3>Want to be a supporter?</h3>
+  <p></p>
+  <button class="btn btn-primary">Support DMP Manifesto</button>
+</div>

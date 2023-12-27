@@ -1,0 +1,49 @@
+name: Bug report
+description: Create a report to help us improve
+title: "Something incorrect is there..."
+labels: ["Bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please check [previous reports](https://github.com/rda-dcs/website/issues?q=is%3Aissue+label%3ABug+) to avoid duplication.
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Issue clasification
+      description: What type of issue have you found? Please select all that applies.
+      multiple: true
+      options:
+        - Typo
+        - Inconsistency
+        - Missing information
+        - Formatting
+        - Legacy information
+        - Bad dependencies
+        - Other (specify in text)
+  - type: dropdown
+    id: bug-location
+    attributes:
+      label: Issue location
+      description: Where have you found the issue? Please select all that applies.
+      multiple: true
+      options:
+        - DCS specification
+        - Issue templates
+        - CI workflows
+        - Repo documentation
+        - Other (specify in text)
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the issue? Please provide information what is the problem and where it is located.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Is there anything else related? Please specify additional contextual information related to the issue.
+      render: plain text
