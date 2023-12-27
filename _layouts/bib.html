@@ -1,0 +1,14 @@
+<div class="reference">
+  <div class="reference-ref">
+    {{ reference|makelinks|markdownify }}
+    <div class="reference-actions">
+      <button type="button" class="btn btn-info btn-sm btn-bibtex" id="btn-{{ entry.key }}">
+        <i class="bi-braces"></i> BibTex
+      </button>
+    </div>
+  </div>
+
+  <div class="reference-bibtex d-none" id="bibtex-{{ entry.key }}">
+    <pre>{{ entry.bibtex }}</pre>
+  </div>
+</div>

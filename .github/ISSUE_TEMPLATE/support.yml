@@ -1,0 +1,60 @@
+name: Support DMP Manifesto
+description: List yourself as a supporter
+title: "New supporter: ..."
+labels: ["Support"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for supporting DMP Manifesto!
+  - id: person-name
+    type: input
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - id: person-email
+    type: input
+    attributes:
+      label: Email Address
+    validations:
+      required: false
+  - id: person-orcid
+    type: input
+    attributes:
+      label: ORCID
+      description: Provide your [ORCID](https://orcid.org/) identifier, e.g. `0000-0001-2345-6789`.
+    validations:
+      required: false
+  - id: person-linkedin
+    type: input
+    attributes:
+      label: LinkedIn
+      description: Provide your [LinkedIn](https://www.linkedin.com/) profile name, e.g., `JohnDoe`.
+    validations:
+      required: false
+  - id: affiliations
+    type: textarea
+    attributes:
+      label: Affiliation(s)
+      description: List your affiliation(s), each with a short name and URL
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the issue? Please provide information what is the problem and where it is located.
+  - type: checkboxes
+    attributes:
+      label: Information is correct
+      description: I hereby certify that all of the information provided by me in this form is correct, accurate and complete to the best of my knowledge.
+      options:
+        - label: Agree
+          required: true
+  - type: checkboxes
+    attributes:
+      label: List me at ActiveDMPs.org
+      description: I fully agree that the provided information will be listed on [activedmps.org] and will become part of this GitHub repository codebase.
+      options:
+        - label: Agree
+          required: true

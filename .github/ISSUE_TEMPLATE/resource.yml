@@ -1,0 +1,19 @@
+name: Suggest a resource
+description: Inform about a new relevant resource
+title: "Resource: ..."
+labels: ["Resource"]
+assignees: []
+body:
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: Describe the resource, add links, and explain how is it relevant.
+    validations:
+      required: true
+  - id: resource-bibtex
+    type: textarea
+    attributes:
+      label: BibTex
+      description: Provide a [BibTex](https://www.bibtex.org/) representation.
+      render: BibTeX

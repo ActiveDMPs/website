@@ -1,0 +1,87 @@
+- name: Marek Suchánek
+  affiliations:
+    - name: CTU in Prague
+      url: https://fit.cvut.cz
+    - name: Data Stewardship Wizard
+      url: https://ds-wizard.org
+  orcid: 0000-0001-7525-9218
+  email: marek.suchanek@fit.cvut.cz
+  linkedin: mareksuchanek
+  github: MarekSuchanek
+  added: 2024-02-12
+  source: author
+
+- name: John Chodacki
+  affiliations:
+    - name: California Digital Library
+      url: https://cdlib.org/
+  orcid: 0000-0002-7378-2408
+  linkedin: johnchodacki
+  github: chodacki
+  added: 2024-02-12
+  source: author
+
+- name: Tomasz Miksa
+  affiliations:
+    - name: TU Wien
+      url: https://www.tuwien.at/
+    - name: SBA Research
+      url: https://www.sba-research.org/
+  orcid: 0000-0002-4929-7875
+  linkedin: tmiksa
+  github: TomMiksa
+  added: 2024-02-12
+  source: author
+
+- name: Elli Papadopoulou
+  affiliations:
+    - name: Athena RC
+      url: https://www.athenarc.gr/en/home
+  orcid: 0000-0002-0893-8509
+  linkedin: elli-papadopoulou-569a19a3
+  github: Elpapado
+  added: 2024-02-12
+  source: author
+
+- name: Maria Praetzellis
+  affiliations:
+    - name: California Digital Library
+      url: https://cdlib.org/
+    - name: University of California
+      url: https://www.universityofcalifornia.edu/
+  orcid: 0000-0001-5047-3090
+  linkedin: mariapraetzellis
+  added: 2024-02-12
+  source: author
+
+- name: Marie-Christine Jacquemot
+  affiliations:
+    - name: INIST-CNRS
+      url: https://www.inist.fr/
+  orcid: 0000-0002-6316-1472
+  added: 2024-02-12
+  source: author
+
+- name: Kevin Ashley
+  affiliations:
+    - name: Digital Curation Centre
+      url: https://cdlib.org/
+  linkedin: cziwkga
+  added: 2024-02-12
+  source: author
+
+
+####################################################
+# Template (copy and uncomment):
+#
+#- name: John Doe
+#  affiliations:
+#    - University X
+#    - Company Y
+#  orcid: 0000-0000-0000-0000
+#  email: john.doe@example.com
+#  linkedin: johndoe
+#  github: JohnDoe
+#  added: 2023-12-31
+#  source: github#1
+####################################################

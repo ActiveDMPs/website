@@ -1,0 +1,33 @@
+title: ActiveDMPs
+email: info@activedmps.org
+description: >-
+  ActiveDMPS fosters a vibrant community dedicated to advancing machine-actionable Data Management Plans (DMPs), providing a collaborative space where researchers and professionals can engage in the development, sharing, and implementation of dynamic data management strategies. Through its interactive platform, ActiveDMPS empowers users to collectively shape best practices, streamline workflows, and drive innovation in the evolving landscape of data management, enhancing the effectiveness and reproducibility of research endeavors.
+baseurl: ""
+url: "https://activedmps.org"
+twitter_username: ActiveDMPs
+github_username: ActiveDMPs
+markdown: kramdown
+
+plugins:
+  - jekyll/scholar
+
+scholar:
+  style: apa
+  locale: en
+  bibliography_template: bib
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE

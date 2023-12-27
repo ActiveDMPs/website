@@ -1,0 +1,13 @@
+name: Typo
+description: Report a spotted typo
+title: "Typo: ..."
+labels: ["Typo"]
+assignees: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the issue? Please provide information what is the problem and where it is located.
+    validations:
+      required: true

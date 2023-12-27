@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you want to refer to the DMP manifesto, please cite it as below."
+
+title: "Salzburg Manifesto on machine actionable Data Management Plans"
+authors:
+  - family-names: Miksa
+    given-names: Tomasz
+    orcid: https://orcid.org/0000-0002-4929-7875
+  - family-names: Chodacki
+    given-names: John
+    orcid: https://orcid.org/0000-0002-7378-2408
+  - family-names: Suchánek
+    given-names: Marek
+    orcid: https://orcid.org/0000-0001-7525-9218
+  - family-names: Praetzellis
+    given-names: Maria
+    orcid: https://orcid.org/0000-0001-5047-3090
+  - family-names: Papadopoulou
+    given-names: Elli
+    orcid: https://orcid.org/0000-0002-0893-8509
+  - family-names: Jacquemot
+    given-names: Marie-Christine
+    orcid: https://orcid.org/0000-0002-6316-1472
+  - family-names: Ashley
+    given-names: Kevin
+    orcid: https://orcid.org/0000-0001-7546-5978
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10658521
+date-released: 2024-02-14

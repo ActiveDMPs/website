@@ -1,0 +1,53 @@
+<h2>Supporters</h2>
+
+<p>Here, we list all the supporters of the DMP manifesto. Currently, there are {{ site.data.supporters|size }} supporters.</p>
+
+<table class="table table-striped" id="table-supporters">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Affiliation(s)</th>
+      <th scope="col">ORCiD</th>
+      <th scope="col">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for supporter in site.data.supporters %}
+    <tr>
+      <td>{{ forloop.index }}</td>
+      <td>{{ supporter.name }}</td>
+      <td>
+        <ul class="affiliations">
+          {% for affiliation in supporter.affiliations %}
+          <li><a href="{{ affiliation.url }}" target="_blank">{{ affiliation.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </td>
+      <td><a href="https://orcid.org/{{ supporter.orcid }}" target="_blank">{{ supporter.orcid }}</a></td>
+      <td>
+        <ul class="links">
+          {% if supporter.email %}
+          <li><a href="mailto:{{supporter.email}}"><i class="bi-envelope-at-fill"></i></a></li>
+          {% endif %}
+          {% if supporter.linkedin %}
+          <li><a href="https://linkedin.com/in/{{supporter.linkedin}}"><i class="bi-linkedin"></i></a></li>
+          {% endif %}
+          {% if supporter.github %}
+          <li><a href="https://github.com/{{supporter.github}}"><i class="bi-github"></i></a></li>
+          {% endif %}
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<div class="call-to-action">
+  <h3>Want to become a supporter?</h3>
+  <p>Join us in shaping a brighter future! Stand with the DMP manifesto and be a catalyst for positive change in data management planning.</p>
+  <a class="btn btn-primary" target="_blank" href="https://github.com/ActiveDMPs/website/issues/new?assignees=&labels=Support&projects=&template=support.yml&title=New+supporter%3A+...">
+    <i class="bi-pen-fill"></i> Support DMP Manifesto
+  </a>
+</div>
