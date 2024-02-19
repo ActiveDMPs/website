@@ -26,7 +26,7 @@ We invite all stakeholders to join us - participate in discussions, and contribu
 
 
 [^1]: There are many variations of the term “Data Management Plans”. We use the term loosely to describe all types of plans that are created to describe how research outputs will be created and cared for during and after research projects.
-[^2]: Tools working together towards these goals include DMP Tool, DMP Online, DMP OPIDoR, Argos, Digital Stewardship Wizard and many others.
+[^2]: Tools working together towards these goals include [DMP Tool](https://dmptool.org/), [DMP Online](https://dmponline.dcc.ac.uk/), [DMP OPIDoR](https://dmp.opidor.fr/), [Argos](https://argos.openaire.eu/home), [Data Stewardship Wizard](https://ds-wizard.org), [DAMAP](https://damap.org/), and many others.
 [^3]: More information on the Active Data Management Plans IG available at [rd-alliance.org/groups/active-data-management-plans](https://www.rd-alliance.org/groups/active-data-management-plans.html).
 [^4]: More information on the maDMP Common Standard available at [GitHub.com/RDA-DMP-Common/RDA-DMP-Common-Standard](https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard).
 [^5]: Miksa T, Simms S, Mietchen D, Jones S (2019) Ten principles for machine-actionable data management plans. PLoS Comput Biol 15(3): e1006750. DOI: [10.1371/journal.pcbi.1006750](https://doi.org/10.1371/journal.pcbi.1006750).
