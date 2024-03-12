@@ -65,7 +65,7 @@ i.bi-orcid {
 }
 #table-supporters td ul.affiliations {
   list-style-type: none;
-  display: flex;
+  display: inline;
   align-content: center;
   gap: 0.5rex;
   margin: 0;
@@ -80,7 +80,7 @@ i.bi-orcid {
   padding: 0;
 }
 #table-supporters td ul.affiliations li {
-  display: inline-block;
+  display: inline;
 }
 #table-supporters td ul.affiliations li:after {
   content: ",";
