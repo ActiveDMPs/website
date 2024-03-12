@@ -70,6 +70,33 @@
   added: 2024-02-12
   source: author
 
+- name: Mary O'Brien Uhlmansiek
+  affiliations:
+    - name: Association of Research Libraries
+      url: https://www.arl.org/
+    - name: California Digital Library
+      url: https://cdlib.org/
+    - name: Research Data Alliance
+      url: https://rd-alliance.org/
+  orcid: 0000-0002-7949-2057
+  email: muhlmansiek@arl.org
+  linkedin: mary-o-brien-uhlmansiek
+  github: magicalmary
+  added: 2024-02-23
+  source: github#5
+
+- name: Jakub Jirka
+  affiliations:
+    - name: FAIR Wizard
+      url: https://fair-wizard.com/
+    - name: Codevence Solutions
+      url: https://codevence.com/
+  email: jakub.jirka@codevence.com
+  linkedin: jakub-jirka
+  github: noiz96
+  added: 2024-03-05
+  source: github#6
+
 
 ####################################################
 # Template (copy and uncomment):
