@@ -97,6 +97,15 @@
   added: 2024-03-05
   source: github#6
 
+- name: Paulette Lieby
+  affiliations:
+    - name: Institut Français de Bioinformatique, IFB - ELIXIR-FR, CNRS
+      url: https://www.france-bioinformatique.fr/
+  email: contact-dsw-ifb@groupes.france-bioinformatique.fr
+  github: froggypaule
+  added: 2024-03-19
+  source: github#8
+
 
 ####################################################
 # Template (copy and uncomment):
