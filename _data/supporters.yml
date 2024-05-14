@@ -108,6 +108,26 @@
   added: 2024-03-19
   source: github#8
 
+- name: Georgios Kakaletris
+  affiliations:
+    - name: CITE
+      url: https://www.cite.gr/ 
+  email: gkakas@cite.gr
+  orcid: 0000-0002-2095-1220
+  linkedin: gkakas
+  added: 2024-05-14
+  source: github#9
+
+- name: Diamantis Tziotzios
+  affiliations:
+    - name: CITE
+      url: https://www.cite.gr/ 
+  email: dtziotzios@cite.gr
+  orcid: 0000-0003-1670-4611
+  linkedin: dtziotzios
+  added: 2024-05-14
+  source: github#10
+
 
 ####################################################
 # Template (copy and uncomment):
