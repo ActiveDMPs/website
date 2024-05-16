@@ -1,11 +1,9 @@
 - name: Marek Suchánek
   affiliations:
     - name: CTU in Prague
-      url: https://fit.cvut.cz
-    - name: Data Stewardship Wizard
-      url: https://ds-wizard.org
+      url: https://www.cvut.cz/en
   orcid: 0000-0001-7525-9218
-  email: marek.suchanek@fit.cvut.cz
+  email: marek.suchanek@cvut.cz
   linkedin: mareksuchanek
   github: MarekSuchanek
   added: 2024-02-12
@@ -89,8 +87,6 @@
 
 - name: Jakub Jirka
   affiliations:
-    - name: FAIR Wizard
-      url: https://fair-wizard.com/
     - name: Codevence Solutions
       url: https://codevence.com/
   email: jakub.jirka@codevence.com
