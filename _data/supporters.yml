@@ -124,6 +124,79 @@
   added: 2024-05-14
   source: github#10
 
+- name: Ricardo Hartley Belmar
+  affiliations:
+    - name: Universidad Central de Chile
+      url: https://ror.org/0577avk88
+    - name: Data Observatory Foundation
+      url: https://ror.org/027nn6b17
+  email: rtleyb@gmail.com
+  orcid: 0000-0001-5058-9309
+  linkedin: rtleyb
+  github: rtleyb
+  added: 2024-11-14
+  source: github#11
+
+- name: Gerald Jagusch
+  affiliations:
+    - name: TU Darmstadt, University and State Library
+      url: https://www.ulb.tu-darmstadt.de/die_bibliothek/index.en.jsp
+  email: gerald.jagusch@tu-darmstadt.de
+  orcid: 0000-0001-9964-1112
+  linkedin: gerald-jagusch-1106b466
+  github: GJagusch
+  added: 2024-11-14
+  source: github#13
+
+- name: Peter Neish
+  affiliations:
+    - name: University of Melbourne
+      url: https://www.unimelb.edu.au/
+  orcid: 0000-0002-7171-2334
+  github: peterneish
+  added: 2024-11-14
+  source: github#15
+
+- name: Susanna Nykyri
+  affiliations:
+    - name: DMP Consortium (Finland)
+      url: https://wiki.eduuni.fi/display/csckorkeakoulut/DMP-konsortio
+  email: susanna.nykyri@tuni.fi
+  linkedin: susanna-nykyri-a4bb682b4
+  github: snykyri
+  added: 2024-11-14
+  source: github#16
+
+- name: Priyanka
+  affiliations: []
+  orcid: 0000-0002-6844-6493
+  github: priya-gitTest
+  added: 2024-11-14
+  source: github#19
+
+- name: Xiao-Ran Zhou
+  affiliations:
+    - name: "Institute of Bio- and Geosciences (IBG-4: Bioinformatics), Bioeconomy Science Center (BioSC), CEPLAS, Forschungszentrum Jülich GmbH, Jülich, Germany"
+    - name: "Institute for Biological Data Science, Faculty of Mathematics and Natural Sciences, Cluster of Excellence on Plant Sciences (CEPLAS), Heinrich Heine University Düsseldorf, Düsseldorf, Germany"
+    - name: "DataPLANT (National Research Data Infrastructure NFDI4Plants)"
+  email: x.zhou@fz-juelich.de
+  orcid: 0000-0002-5622-3348
+  linkedin: xiaoranzhou
+  github: xiaoranzhou
+  added: 2024-11-14
+  source: github#20
+
+- name: Jože Hladnik
+  affiliations:
+    - name: "Zavod za Gredbenistvo"
+  email: joze.hladnik@zag.si
+  orcid: 0000-0001-7826-8347
+  linkedin: hladnikjoze
+  github: JozeHladnik
+  added: 2024-11-14
+  source: github#21
+
+
 
 ####################################################
 # Template (copy and uncomment):
