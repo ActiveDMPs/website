@@ -5,7 +5,7 @@ gem "jekyll", "~> 4.3.4"
 group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 1.4"
   gem "jekyll-github-metadata", "~> 2.16.0"
-  gem "jekyll-scholar", "~> 7.1.3"
+  gem "jekyll-scholar", "~> 7.2.0"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
